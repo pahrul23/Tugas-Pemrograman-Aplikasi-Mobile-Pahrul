@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.latihanroom.R
 import com.example.latihanroom.note.Note
+import com.example.latihanroom.ui.NoteViewModel
 
 import kotlinx.android.synthetic.main.activity_main.*
 
