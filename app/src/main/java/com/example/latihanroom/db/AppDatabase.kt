@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import id.ac.unhas.aplikasibelajar.db.note.Note
-import id.ac.unhas.aplikasibelajar.db.note.NoteDao
+import com.example.latihanroom.note.Note
+import com.example.latihanroom.note.NoteDao
 
 @Database(entities = [Note::class], exportSchema = false, version = 1)
 abstract class AppDatabase : RoomDatabase() {
